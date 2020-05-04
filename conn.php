@@ -2,7 +2,7 @@
 function connect(){
 	$SERVER = "localhost";
 	$USERNAME = "root"; 
-	$PASSWORD = "Anh18121998"; 
+	$PASSWORD = "nguyen"; 
 	$DBNAME = "qlbhtrasua";
 	$conn= mysqli_connect($SERVER, $USERNAME, $PASSWORD,$DBNAME); 
 	if ( !$conn )
