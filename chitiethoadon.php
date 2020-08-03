@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
 $id = isset($_SESSION["taikhoan"]) ? $_SESSION["taikhoan"] : '1';
 if ($id == '1'){
@@ -11,7 +11,7 @@ if ($id == '1'){
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="icon" href="img/core-img/icon.ico">
-        <title>Hóa đơn</title>
+        <title>Chi tiet Hóa đơn</title>
         <c:set var="root" value="${pageContext.request.contextPath}"/>
         <link href="css/mos-style.css" rel='stylesheet'type='text/css' />
     </head>
